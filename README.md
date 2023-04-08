@@ -14,6 +14,8 @@ distill documents and jargon down into manageable snippets.
 - Authorization and authentication.
 - Store the summaries with their respective images as a gallery for
 each user.
+- Add functionality to work as a Progressive Web App (PWA), allowing users
+to upload directly from device camera.
 ---
 
 ## Features
