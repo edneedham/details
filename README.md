@@ -5,14 +5,16 @@ Recognition (OCR) using the Tesseract library, and then uses the OpenAI API
 to provide a summary of the extracted text. It's designed to help users 
 distill documents and jargon down into manageable snippets.
 
-*This is only a minimal working example*
+*This is only a minimal working example.*
 
+---
 ## TODOs
 - Move the client codebase to TypeScript.
 - Add tests.
 - Authorization and authentication.
 - Store the summaries with their respective images acting as a gallery for
 each user.
+---
 
 ## Features
 - Upload an image containing text
@@ -51,9 +53,10 @@ cargo build
 touch .env
 ```
 2. Open the .env file and add your OpenAI API key:
-.env
+```bash
 OPENAI_API_KEY=your_openai_api_key
-Make sure to replace your_openai_api_key with your actual OpenAI API key.
+```
+**Make sure to replace `your_openai_api_key` with your actual OpenAI API key.**
 
 ## Running the Application
 1. Start the Rust backend server:
