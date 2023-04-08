@@ -12,7 +12,7 @@ distill documents and jargon down into manageable snippets.
 - Move the client codebase to TypeScript.
 - Add tests.
 - Authorization and authentication.
-- Store the summaries with their respective images acting as a gallery for
+- Store the summaries with their respective images as a gallery for
 each user.
 ---
 
