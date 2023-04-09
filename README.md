@@ -9,6 +9,7 @@ distill documents and jargon down into manageable snippets.
 
 ---
 ## TODOs
+- Add a proxy-middleware to get around CORS.
 - Move the client codebase to TypeScript.
 - Add tests.
 - Authorization and authentication.
@@ -31,13 +32,17 @@ to upload directly from device camera.
 - OpenAI API key
 
 ## Installation
-1. Clone the repository:
+1. Create a new directory:
 ```bash
-git clone <repository_url>
+mkdir details
 ```
-2. Navigate to the project directory:
+2. Change to the new directory:
 ```bash
-cd <project_directory>
+cd details 
+```
+3. Clone the repository:
+```bash
+git clone https://github.com/edneedham/details.git .
 ```
 3. Install the dependencies for the React app:
 ```bash
