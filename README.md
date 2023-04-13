@@ -32,11 +32,11 @@ to upload directly from device camera.
 - OpenAI API key
 
 ## Installation
-1. Create a new directory:
+1. Create a new target directory:
 ```bash
 mkdir details
 ```
-2. Change to the new directory:
+2. Change to the new target directory:
 ```bash
 cd details 
 ```
@@ -51,7 +51,7 @@ npm install
 ```
 4. Install the dependencies for the Rust backend server:
 ```bash
-cd server
+cd ../server
 cargo build
 ```
 ## Configuration
